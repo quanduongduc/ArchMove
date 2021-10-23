@@ -3,7 +3,10 @@
 ## How To Use :
  1. Install NodeJS.
  2. Install the dependencies:
-    
+    ```bash
+    # Using npm
+    npm install
+    ```
  3. Start the development server:
 
     ```bash
