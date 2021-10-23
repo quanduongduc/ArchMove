@@ -3,10 +3,7 @@
 ## How To Use :
  1. Install NodeJS.
  2. Install the dependencies:
-    ```bash
-    # Using npm
-    npm install
-    ```
+    
  3. Start the development server:
 
     ```bash
@@ -18,9 +15,13 @@
     Or you can use live Sever Extension of vsCode.
 ## Some Note :
    1.Custome css attribute in `tailwind.config.js`
-   2.For rebuild TailwindCss base :
+   
+   2.For rebuild TailwindCss base:
+   
      ```bash
-     # Using npx
-     npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
-     ```
+    # Using npm
+    npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
+    ```
 ## Feel free to clone and take it for Your business
+
+
