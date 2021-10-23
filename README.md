@@ -17,10 +17,10 @@
     Now you should be able to see the project running at localhost:3000.
     Or you can use live Sever Extension of vsCode.
 ## Some Note :
-   1.Custome css attribute in ![#c5f015](https: //via.placeholder.com/15/c5f015/000000?text=+) `tailwind.config.js`
+   1.Custome css attribute in `tailwind.config.js`
    2.For rebuild TailwindCss base :
-      ```bash
-      # Using npx
-      npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
-      ```
+     ```bash
+     # Using npx
+     npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
+     ```
 ## Feel free to clone and take it for Your business
