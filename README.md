@@ -18,10 +18,10 @@
     Or you can use live Sever Extension of vsCode.
 ## Some Note :
    1. Custome css attribute in `tailwind.config.js`.
-   2. Rebuild TailWindCSS Base:
+   2. Install the dependencies:
     ```bash
     # Using npm
-    npm tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
+    npm install
     ```
      
 ## Feel free to clone and take it for Your business
