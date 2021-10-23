@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="150 words" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="851">
+    <meta property="og:image:height" content="315">
+    <meta property="og:image:alt" content="Hack the North logo">
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/normalize/font.min.css">
+    <link rel="stylesheet" href="./build/normalize/tailwind.min.css">
+    <link rel="stylesheet" href="./build/normalize/app.min.css">
+</head>
+<div class="flex"></div>
+
+<body>
+    <!-- Header -->
+    <header class="container mx-auto px-2">
+        <div class="xl:-mx-16">
+            <div class="flex justify-between items-center h-24">
+                <div class="hidden justify-center items-center gap-6  lg:flex">
+                    <a class="mr-3" href="#">
+                        <img src="./assets/images/logo-arch.svg" alt="Arch Logo">
+                    </a>
+                    <a class="hover:opacity-70 text-gray-darker text-sm leading-10 font-medium px-1" href="#">Design
+                        Gallery</a>
+                    <a class="hover:opacity-70 text-gray-darker text-sm leading-10 font-medium px-1" href="#">List of
+                        Architect</a>
+                    <a class="hover:opacity-70 text-gray-darker text-sm leading-10 font-medium px-1"
+                        href="#">Articles</a>
+                    <a class="hover:opacity-70 text-gray-darker text-sm leading-10 font-medium px-1" href="#">How it
+                        Works</a>
+                </div>
+                <div class="hidden items-center gap-6 lg:flex">
+                    <button class="hover:opacity-90">
+                        <img src="./assets/images/search.svg" alt="Loop">
+                    </button>
+                    <a class="hover:opacity-70 rounded py-1 px-6 text-gray-darker text-sm leading-10 bg-gray-100"
+                        href="#">Sign In</a>
+                    <a class="hover:opacity-70 rounded py-1 px-6 text-white text-sm leading-10 bg-red-soft font-semibold"
+                        href="#">Sign Up</a>
+                </div>
+                <div class="flex justify-between items-center w-full mx-2 lg:hidden">
+                    <a class="mr-3" href="#">
+                        <img src="./assets/images/logo-arch.svg" alt="Arch Logo">
+                    </a>
+                    <button id="open-hamburger">
+                        <img src="./assets/images/icons8-menu.svg" alt="Hamburger menu icon">
+                    </button>
+                </div>
+                <!-- Menu for mobile , below 1024px -->
+                <div id="hamburger-menu"
+                    class="hidden flex-col justify-center items-center gap-7 absolute top-0 right-0 w-screen h-screen bg-white lg:hidden">
+                    <button id="close-hamburger" class="absolute top-7 right-5">
+                        <img class="w-5 md:w-9" src="./assets/images/close-button_icon-icons.com_72803.svg"
+                            alt="Close hamburger menu">
+                    </button>
+                    <button class="hover:opacity-90">
+                        <img src="./assets/images/search.svg" alt="Loop">
+                    </button>
+                    <a class="hover:opacity-70 text-gray-darker text-base leading-10 font-medium" href="#">Design
+                        Gallery</a>
+                    <a class="hover:opacity-70 text-gray-darker text-base leading-10 font-medium" href="#">List of
+                        Architect</a>
+                    <a class="hover:opacity-70 text-gray-darker text-base leading-10 font-medium" href="#">Articles</a>
+                    <a class="hover:opacity-70 text-gray-darker text-base leading-10 font-medium" href="#">How it
+                        Works</a>
+
+                    <div class="flex gap-5">
+                        <a class="hover:bg-gray-300 rounded py-1 px-6 text-gray-darker text-sm leading-10 bg-gray-400"
+                            href="#">Sign In</a>
+                        <a class="hover:opacity-70 rounded py-1 px-6 text-white text-sm leading-10 bg-red-soft font-semibold"
+                            href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <div class="container mx-auto px-2 mt-8">
+        <h2 class="text-3xl  mb-12 md:text-5xl xl:text-8xl md:max-w-1/2">Build Your
+            Dream <span class="text-red-soft">House</span></h2>
+        <div class="flex flex-col gap-14 w-full lg:flex-row">
+            <div>
+                <p class="text-sm font-medium mb-12 lg:max-w-lg md:text-lg">The first and most trusted marketplace of
+                    design
+                    &
+                    build
+                    house in
+                    The
+                    World. 100% guaranteed Build safe, comfortable and transparent with a project management for the
+                    best result</p>
+                <a class="hover:opacity-80 text-sm text-white bg-red-soft rounded px-6 py-3 md:px-8 md:py-5 md:text-base"
+                    href="#">Free
+                    Consultation</a>
+            </div>
+            <div class="w-full">
+                <img class="w-full mh-" src="./assets/images/hero_img.png" alt="Hero image">
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container mx-auto px-2 mt-16">
+        <h2 class="mx-auto text-3xl text-center max-w-lg md:text-5xl">Build professional valuable room for you</h2>
+        <div class="grid grid-cols-2 gap-10 overflow-x-scroll-scroll mt-10 md:grid-cols-4">
+            <div><img class="w-full rounded" src="./assets/images/img-01.png" alt="furniture"></div>
+            <div><img class="w-full rounded" src="./assets/images/img-02.png" alt="furniture"></div>
+            <div><img class="w-full rounded" src="./assets/images/img-03.png" alt="furniture"></div>
+            <div><img class="w-full rounded" src="./assets/images/img-04.png" alt="furniture"></div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container mx-auto px-2 mt-32 mb-16">
+        <h2 class="mx-auto text-3xl text-center max-w-lg mb-10 md:text-5xl">Build your needs with Archmove</h2>
+        <div class="flex flex-col gap-20 justify-center align-center lg:flex-row lg:gap-40">
+            <div class="w-full">
+                <img class="w-full" src="./assets/images/img-5.png" alt="Person">
+            </div>
+            <div class="flex flex-col w-full items-center justify-center gap-16">
+                <div class="flex flex-col gap-10 max-w-sm">
+                    <div class="flex gap-4">
+                        <div>
+                            <img src="./assets/images/icon1.svg" alt="icon">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="font-bold">100% guaranteed project completion</p>
+                            <p class="font-normal">Build safe, comfortable and transparent with a project management
+                                application
+                                with a joint account.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img src="./assets/images/icon1.svg" alt="icon">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="font-bold">100% guaranteed project completion</p>
+                            <p class="font-normal">Build safe, comfortable and transparent with a project management
+                                application
+                                with a joint account.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div>
+                            <img src="./assets/images/icon1.svg" alt="icon">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="font-bold">100% guaranteed project completion</p>
+                            <p class="font-normal">Build safe, comfortable and transparent with a project management
+                                application
+                                with a joint account.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="hover:opacity-80 text-sm text-white bg-red-soft rounded px-6 py-3 md:px-8 md:py-5 md:text-base"
+                    href="#">Free
+                    Consultation</a>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="bg-gradientWhite pt-16">
+        <div class="container mx-auto px-2 mt-16 flex flex-col">
+            <h2 class="text-3xl mb-20 lg:mb-10 md:text-5xl max-w-lg">Sound Too Good To Be True?</h2>
+            <div class="flex flex-col self-end max-w-3xl gap-10">
+                <div class="relative">
+                    <img class="absolute -top-10 lg:top-0 lg:-left-16" src="./assets/images/comma.svg" alt="comma">
+                    <p class="text-xl font-light lg:text-2xl">We just wanted to thank you for this fantastic website! We
+                        are
+                        so
+                        grateful for
+                        being able to
+                        advertise our Petite cabin and receive feedback from people from all over the U.S. and even
+                        further.
+                    </p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <p><span class="font-bold">Adam Morph —</span> CEO Alfatech</p>
+                    <div class="flex">
+                        <button class="hover:bg-softGray p-4 bg-white"><img
+                                src="./assets/images/dashicons_arrow-right-alt.svg" alt=""></button>
+                        <button class="hover:opacity-70 p-4 bg-softGray"><img class="transform rotate-180"
+                                src="./assets/images/dashicons_arrow-right-alt.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-2 mt-32">
+            <div class="flex flex-col-reverse gap-28 lg:flex-row">
+                <div class="flex justify-center items-center w-full">
+                    <img class="" src="./assets/images/img.png" alt="home">
+                </div>
+                <div class="flex flex-col justify-center items-start gap-16 max-w-lg">
+                    <h2 class="text-3xl font-bold md:text-5xl ">Realize your dream project with <span
+                            class="text-red-soft">Archmove</span></h2>
+                    <a class="hover:opacity-80 text-sm text-white bg-red-soft rounded px-6 py-3 md:px-8 md:py-5 md:text-base"
+                        href="#">Free
+                        Consultation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partner -->
+    <div class="container mx-auto px-2 mt-32">
+        <h2 class="text-3xl font-bold md:text-5xl">Our Partners</h2>
+        <div class="flex flex-col justify-center items-center gap-10 mt-20 lg:flex-row lg:gap-20">
+            <a href="#" class="hover:bg-gray-soft">
+                <img src="./assets/images/logo-1.png" alt="parner logo">
+            </a>
+            <a href="#" class="hover:bg-gray-soft">
+                <img src="./assets/images/logo-2.png" alt="parner logo">
+            </a>
+            <a href="#" class="hover:bg-gray-soft">
+                <img src="./assets/images/logo-3.png" alt="parner logo">
+            </a>
+            <a href="#" class="hover:bg-gray-soft">
+                <img src="./assets/images/logo-4.png" alt="parner logo">
+            </a>
+            <a href="#" class="hover:bg-gray-soft">
+                <img src="./assets/images/logo-5.png" alt="parner logo">
+            </a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="py-20 mt-32 border-t-2 border-nearWhite">
+        <div class="container mx-auto px-2">
+            <div class="flex flex-wrap justify-center align-center gap-10 md:justify-between">
+                <div class="flex gap-6">
+                    <a class="hover:opacity-80 text-sm text-center font-semibold md:text-base" href="#">About Us</a>
+                    <a class="hover:opacity-80 text-sm text-center font-semibold md:text-base" href="#">How it Works</a>
+                    <a class="hover:opacity-80 text-sm text-center font-semibold md:text-base" href="#">FAQ</a>
+                    <a class="hover:opacity-80 text-sm text-center font-semibold md:text-base" href="#">Contact Us</a>
+                    <a class="hover:opacity-80 text-sm text-center font-semibold md:text-base" href="#">Privacy
+                        Policy</a>
+                </div>
+                <a href="#">
+                    <img src="./assets/images/logo-arch.svg" alt="Arch logo">
+                </a>
+            </div>
+        </div>
+        <div>
+
+        </div>
+        <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+const colors = require("tailwindcss/colors");
+
+module.exports = {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    colors: {
+      white: colors.white,
+      black: colors.black,
+      nearWhite: "rgba(0, 0, 0, 0.09)",
+      red: {
+        soft: "#FD665E",
+      },
+      gray: {
+        soft: "#e0aaaa",
+        darker: "#585858",
+        darkest: "#473534",
+      },
+    },
+    extend: {
+      backgroundColor: {
+        softGray: "rgba(0, 0, 0, 0.03)",
+      },
+      maxWidth: {
+        "1/2": "50%",
+      },
+      backgroundImage: {
+        gradientWhite:
+          "linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);",
+      },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
