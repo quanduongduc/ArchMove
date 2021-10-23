@@ -20,7 +20,7 @@
     
 ## Some Note :
 1. Custome css attribute in `tailwind.config.js`.
-2. Install the dependencies:
+2. Rebuild TailWindCSS Base:
     ```bash
     # Using npx
     npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
