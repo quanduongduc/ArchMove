@@ -20,9 +20,10 @@
    1.Custome css attribute in tailwind.config.js.
    
    2.For rebuild TailwindCss base:
+   
     ```bash
     # Using npm
-    npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
+    npm install
     ```
     
 ## Feel free to clone and take it for Your business
