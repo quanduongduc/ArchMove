@@ -1,17 +1,1 @@
-body {
-  font-family: SFUIDisplay;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: NewYorkExtraLarge;
-}
-img {
-  margin: 0;
-  padding: 0;
-}
+body{font-family:SFUIDisplay;scroll-behavior:smooth;overflow-x:hidden}h1,h2,h3,h4,h5,h6{font-family:NewYorkExtraLarge}img{margin:0;padding:0}
