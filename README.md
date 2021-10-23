@@ -18,7 +18,7 @@
    
    2.For rebuild TailwindCss base:
    
-     ```bash
+    ```bash
     # Using npm
     npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
     ```
