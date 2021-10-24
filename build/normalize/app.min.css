@@ -1,1 +1,1 @@
-body{font-family:SFUIDisplay;scroll-behavior:smooth;overflow-x:hidden}h1,h2,h3,h4,h5,h6{font-family:NewYorkExtraLarge}img{margin:0;padding:0}
+html{scroll-behavior:smooth}body{font-family:SFUIDisplay;scroll-behavior:smooth;overflow-x:hidden}h1,h2,h3,h4,h5,h6{font-family:NewYorkExtraLarge}img{margin:0;padding:0}.appearance-ani{animation:appearance ease-in-out .5s forwards}@media (min-width:1024px){.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}}@keyframes appearance{from{transform:scale(0)}to{transform:scale(1)}}

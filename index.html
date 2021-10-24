@@ -17,10 +17,10 @@
     <meta property="og:image:height" content="315">
     <meta property="og:image:alt" content="Furniture image">
     <title>Archmove</title>
-    <link rel="stylesheet" href="./build/normalize/font.min.css">
-    <link rel="stylesheet" href="./build/normalize/tailwind.min.css">
-    <link rel="stylesheet" href="./build/normalize/app.min.css">
     <link rel="shortcut icon" href="./assets/images/logo-arch.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./build/normalize/font.min.css">
+    <link rel="stylesheet" href="./build//normalize/tailwind.min.css">
+    <link rel="stylesheet" href="./build/normalize/app.min.css">
 </head>
 
 <body>
@@ -111,11 +111,39 @@
     <!--  -->
     <div class="container mx-auto px-2 mt-16">
         <h2 class="mx-auto text-3xl text-center max-w-lg md:text-5xl">Build professional valuable room for you</h2>
-        <div class="grid grid-cols-2 gap-10 overflow-x-scroll-scroll mt-10 md:grid-cols-4">
-            <div><img class="w-full rounded" src="./assets/images/img-01.png" alt="furniture"></div>
-            <div><img class="w-full rounded" src="./assets/images/img-02.png" alt="furniture"></div>
-            <div><img class="w-full rounded" src="./assets/images/img-03.png" alt="furniture"></div>
-            <div><img class="w-full rounded" src="./assets/images/img-04.png" alt="furniture"></div>
+        <div id="furnitures" class="grid auto-cols-340 grid-flow-col gap-10 overflow-x-scroll mt-10 no-scrollbar">
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-01.png" alt="furniture">
+            </div>
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-02.png" alt="furniture">
+            </div>
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-03.png" alt="furniture">
+            </div>
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-04.png" alt="furniture">
+            </div>
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-04.png" alt="furniture">
+            </div>
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-04.png" alt="furniture">
+            </div>
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-04.png" alt="furniture">
+            </div>
+            <div class="">
+                <img class="w-full rounded" src="./assets/images/img-04.png" alt="furniture">
+            </div>
+        </div>
+        <div class="hidden lg:flex justify-end mt-10">
+            <button id="furniture-pre" class="hover:bg-softGray p-4 bg-white">
+                <img src="./assets/images/dashicons_arrow-right-alt.svg" alt="">
+            </button>
+            <button id="furniture-next" class="hover:opacity-70 p-4 bg-softGray">
+                <img class="transform rotate-180" src="./assets/images/dashicons_arrow-right-alt.svg" alt="">
+            </button>
         </div>
     </div>
     <!--  -->
@@ -174,7 +202,10 @@
             <div class="flex flex-col self-end max-w-3xl gap-10">
                 <div class="relative">
                     <img class="absolute -top-10 lg:top-0 lg:-left-16" src="./assets/images/comma.svg" alt="comma">
-                    <p class="text-xl font-light lg:text-2xl">We just wanted to thank you for this fantastic website! We
+                    <p id="quote" class="text-xl font-light lg:text-2xl origin-top-left">We just wanted
+                        to thank
+                        you for this
+                        fantastic website! We
                         are
                         so
                         grateful for
@@ -186,10 +217,10 @@
                 <div class="flex items-center justify-between">
                     <p><span class="font-bold">Adam Morph —</span> CEO Alfatech</p>
                     <div class="flex">
-                        <button class="hover:bg-softGray p-4 bg-white"><img
+                        <button id="quote-pre" class="hover:bg-softGray p-4 bg-white"><img
                                 src="./assets/images/dashicons_arrow-right-alt.svg" alt=""></button>
-                        <button class="hover:opacity-70 p-4 bg-softGray"><img class="transform rotate-180"
-                                src="./assets/images/dashicons_arrow-right-alt.svg" alt="">
+                        <button id="quote-next" class="hover:opacity-70 p-4 bg-softGray"><img
+                                class="transform rotate-180" src="./assets/images/dashicons_arrow-right-alt.svg" alt="">
                         </button>
                     </div>
                 </div>

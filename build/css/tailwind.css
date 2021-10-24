@@ -10142,6 +10142,10 @@ video {
           appearance: none;
 }
 
+.auto-cols-340 {
+  grid-auto-columns: minmax(340px,1fr);
+}
+
 .auto-cols-auto {
   grid-auto-columns: auto;
 }
@@ -10240,6 +10244,10 @@ video {
 
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-cols-340 {
+  grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
 }
 
 .grid-cols-none {
@@ -27915,6 +27923,10 @@ video {
             appearance: none;
   }
 
+  .sm\:auto-cols-340 {
+    grid-auto-columns: minmax(340px,1fr);
+  }
+
   .sm\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -28013,6 +28025,10 @@ video {
 
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-340 {
+    grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
   }
 
   .sm\:grid-cols-none {
@@ -45644,6 +45660,10 @@ video {
             appearance: none;
   }
 
+  .md\:auto-cols-340 {
+    grid-auto-columns: minmax(340px,1fr);
+  }
+
   .md\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -45742,6 +45762,10 @@ video {
 
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-340 {
+    grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
   }
 
   .md\:grid-cols-none {
@@ -63373,6 +63397,10 @@ video {
             appearance: none;
   }
 
+  .lg\:auto-cols-340 {
+    grid-auto-columns: minmax(340px,1fr);
+  }
+
   .lg\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -63471,6 +63499,10 @@ video {
 
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-340 {
+    grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
   }
 
   .lg\:grid-cols-none {
@@ -81102,6 +81134,10 @@ video {
             appearance: none;
   }
 
+  .xl\:auto-cols-340 {
+    grid-auto-columns: minmax(340px,1fr);
+  }
+
   .xl\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -81200,6 +81236,10 @@ video {
 
   .xl\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-340 {
+    grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
   }
 
   .xl\:grid-cols-none {
@@ -98831,6 +98871,10 @@ video {
             appearance: none;
   }
 
+  .\32xl\:auto-cols-340 {
+    grid-auto-columns: minmax(340px,1fr);
+  }
+
   .\32xl\:auto-cols-auto {
     grid-auto-columns: auto;
   }
@@ -98929,6 +98973,10 @@ video {
 
   .\32xl\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .\32xl\:grid-cols-340 {
+    grid-template-columns: repeat(auto-fill,minmax(340px,1fr));
   }
 
   .\32xl\:grid-cols-none {

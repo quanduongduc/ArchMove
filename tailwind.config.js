@@ -1,3 +1,4 @@
+const { fill } = require("lodash");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
@@ -18,6 +19,12 @@ module.exports = {
       },
     },
     extend: {
+      gridTemplateColumns: {
+        340: "repeat(auto-fill,minmax(340px,1fr))",
+      },
+      gridAutoColumns: {
+        340: "minmax(340px,1fr)",
+      },
       backgroundColor: {
         softGray: "rgba(0, 0, 0, 0.03)",
       },

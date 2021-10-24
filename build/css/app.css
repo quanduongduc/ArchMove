@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: SFUIDisplay;
   scroll-behavior: smooth;
@@ -16,4 +20,27 @@ h6 {
 img {
   margin: 0;
   padding: 0;
+}
+
+.appearance-ani {
+  animation: appearance ease-in-out 500ms forwards;
+}
+
+@media (min-width: 1024px) {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@keyframes appearance {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
