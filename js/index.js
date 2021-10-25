@@ -17,22 +17,22 @@ function changeQuote() {
   }, 600);
 }
 
-function furnitureNext() {
-  const furnitures = $("#furnitures");
-  const currentScroll = furnitures.scrollLeft;
-  furnitures.scrollTo({
-    top: 0,
-    left: currentScroll + 380, // move forward 380px, 380px is width of a item (include gap)
-    behavior: "smooth",
-  });
-}
-
 function furniturePre() {
   const furnitures = $("#furnitures");
   const currentScroll = furnitures.scrollLeft;
   furnitures.scrollTo({
     top: 0,
     left: currentScroll - 380, // Move back 380px, 380px is width of a item (include gap)
+    behavior: "smooth",
+  });
+}
+
+function furnitureNext() {
+  const furnitures = $("#furnitures");
+  const currentScroll = furnitures.scrollLeft;
+  furnitures.scrollTo({
+    top: 0,
+    left: currentScroll + 380, // Move back 380px, 380px is width of a item (include gap)
     behavior: "smooth",
   });
 }
@@ -58,12 +58,10 @@ quotePreBtn.onclick = function () {
 };
 
 furnitureNextBtn.onclick = function () {
-  console.log("checked");
   furnitureNext();
 };
 
 furniturePreBtn.onclick = function () {
-  console.log("checked");
   furniturePre();
 };
 

@@ -24,6 +24,7 @@ module.exports = {
       },
       gridAutoColumns: {
         340: "minmax(340px,1fr)",
+        "4/5": "80%",
       },
       backgroundColor: {
         softGray: "rgba(0, 0, 0, 0.03)",
