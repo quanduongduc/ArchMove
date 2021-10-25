@@ -10164,6 +10164,10 @@ video {
   grid-auto-columns: minmax(0, 1fr);
 }
 
+.auto-cols-4\/5 {
+  grid-auto-columns: 80%;
+}
+
 .grid-flow-row {
   grid-auto-flow: row;
 }
@@ -18443,6 +18447,25 @@ video {
 
 .content-none {
   content: none;
+}
+
+.scroll-snap-none {
+  -ms-scroll-snap-type: none;
+      scroll-snap-type: none;
+}
+
+.scroll-snap-x {
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+}
+
+.scroll-snap-y {
+  -ms-scroll-snap-type: y;
+      scroll-snap-type: y;
+}
+
+.scroll-align-start {
+  scroll-snap-align: start;
 }
 
 @media (min-width: 640px) {
@@ -27943,6 +27966,10 @@ video {
 
   .sm\:auto-cols-fr {
     grid-auto-columns: minmax(0, 1fr);
+  }
+
+  .sm\:auto-cols-4\/5 {
+    grid-auto-columns: 80%;
   }
 
   .sm\:grid-flow-row {
@@ -45682,6 +45709,10 @@ video {
     grid-auto-columns: minmax(0, 1fr);
   }
 
+  .md\:auto-cols-4\/5 {
+    grid-auto-columns: 80%;
+  }
+
   .md\:grid-flow-row {
     grid-auto-flow: row;
   }
@@ -63417,6 +63448,10 @@ video {
 
   .lg\:auto-cols-fr {
     grid-auto-columns: minmax(0, 1fr);
+  }
+
+  .lg\:auto-cols-4\/5 {
+    grid-auto-columns: 80%;
   }
 
   .lg\:grid-flow-row {
@@ -81156,6 +81191,10 @@ video {
     grid-auto-columns: minmax(0, 1fr);
   }
 
+  .xl\:auto-cols-4\/5 {
+    grid-auto-columns: 80%;
+  }
+
   .xl\:grid-flow-row {
     grid-auto-flow: row;
   }
@@ -98891,6 +98930,10 @@ video {
 
   .\32xl\:auto-cols-fr {
     grid-auto-columns: minmax(0, 1fr);
+  }
+
+  .\32xl\:auto-cols-4\/5 {
+    grid-auto-columns: 80%;
   }
 
   .\32xl\:grid-flow-row {
