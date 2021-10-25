@@ -23,7 +23,7 @@
 2. Rebuild TailWindCSS Base:
     ```bash
     # Using npx
-    npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
+    npx tailwindcss -i ./css/tailwind.css -o ./build/css/tailwind.css --watch
     ```
    
 ## Feel free to clone and take it for Your business
