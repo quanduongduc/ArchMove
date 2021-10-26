@@ -19,8 +19,10 @@
     Or you can use live Sever Extension of vsCode.
     
 ## Some Note :
-1. Custome css attribute in `tailwind.config.js`.
-2. Rebuild TailWindCSS Base:
+1. Custom css attribute in `tailwind.config.js`.
+2. Some Custom utilities in `css\tailwind.css`.
+3. CSS use in HTML is minified, See normal css in `build/css/`.
+4. Rebuild TailWindCSS Base:
     ```bash
     # Using npx
     npx tailwindcss -i ./css/tailwind.css -o ./build/css/tailwind.css --watch
