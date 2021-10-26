@@ -22,7 +22,7 @@
 1. Custom css attribute in `tailwind.config.js`.
 2. Some Custom utilities in `css\tailwind.css`.
 3. CSS use in HTML is minified, See normal css in `build/css/`.
-5. Tailwind CSS is purge (Remove all unused css), to Rebuild TailWindCSS Base:
+5. Tailwind CSS is purged (Remove all unused css), to Rebuild TailWindCSS Base:
     ```bash
     # Using npm
     npm run build
