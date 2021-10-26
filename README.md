@@ -27,7 +27,7 @@
     # Using npm
     npm run build
     ```
-6. Purege unused CSS in tailwind : 
+6. Purge unused CSS in tailwind : 
     ```bash
     # Using npm
     npm run product
