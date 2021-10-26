@@ -2,7 +2,7 @@ const { fill } = require("lodash");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: [],
+  purge: ["./*.html", "./**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
